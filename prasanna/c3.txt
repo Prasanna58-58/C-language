@@ -1,0 +1,20 @@
+#include<stdio.h>
+{
+int main()
+{ 
+int a=20;
+int b=10;
+int add=a+b;
+int sub=a-b;
+int mul=a*b;
+int div=a/b;
+int mod=a%b;
+printf("add:%d\n",add);
+printf("sub:%d\n",sub);
+printf("mul:%d\n",mul);
+printf("div:%d\n",div);
+printf("mod:%d\n",mod);
+return 0;
+}
+
+

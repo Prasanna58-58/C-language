@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{ 
+int n1,n2;
+float num;
+char c;
+printf("enter n1 value is:\n");
+scanf("%d",&n1);
+printf("enter n2 value is:\n");
+scanf("%d",&n2);
+printf("print the two numbers is:%dand%d\n\n",n1,n2);
+printf("enter a floating number:\n");
+scanf("%f",&num);
+printf("print the floating value is:%f\n",num);
+printf("enter a character:\n");
+scanf("%c",&c);
+printf("print the character is:%c\n",c);
+return 0;
+}

@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int mother_age;
+printf("enter your mother's age:");
+scanf("%d",&mother_age);
+printf("My mother's age is:%d\n",mother_age);
+return 0;
+}

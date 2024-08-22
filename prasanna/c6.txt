@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int inttype;
+float floattype;
+char chartype;
+double doubletype;
+short shorttype;
+long longtype;
+printf("size of int:%d\n",sizeof(inttype));
+printf("size of float:%f\n",sizeof(floattype));
+printf("size of char:%c\n",sizeof(chartype));
+printf("size of double:%lf\n",sizeof(doubletype));
+printf("size of short:%u\n",sizeof(shorttype));
+printf("size of long:%ld\n",sizeof(longtype));
+return 0;
+}
+
+
+
+
