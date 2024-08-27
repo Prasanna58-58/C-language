@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+float number=8.2345;
+printf("%.2f\n",mumber);
+return 0;
+}

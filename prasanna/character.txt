@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+char a='a';
+printf("enter a character:");
+scanf("%c",&a);
+printf("print a character number %c is:%d\n",a,a);
+return 0;
+}
+
+
+

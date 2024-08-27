@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int s,p;
+printf("Enter the values for s and p:\n");
+scanf("%d%d",&s&p);
+printf("before swapping the values of s and p:%d%d\n",s,p);
+s=s+p;
+p=s-p;
+s=s-p;
+printf("after swapping the values of s and p:%d%d\n",s,p);
+return 0;
+}
+
+

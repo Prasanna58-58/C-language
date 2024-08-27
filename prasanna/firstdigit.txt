@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int n;
+int firstdigit;
+printf("enter a given number:\n");
+scanf("%d",&n);
+firstdigit=n>=10;
+printf("firstdigit=%d",firstdigit);
+return 0;
+}
