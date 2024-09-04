@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=12,b=25;
+printf("and opration:%d\n",a&b);
+printf("or operation:%d\n",a|b);
+printf("xor operation:%d\n",a^b);
+printf("right shift:%d\n",a>>b);;
+printf("left shift:%d\n",a<<b);
+return 0;
+}
