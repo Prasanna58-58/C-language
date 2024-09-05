@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int l,area,perimeter;
+printf("enter length of the side:");
+scanf("%d",&l);
+area=l*l;
+perimeter=4*l;
+printf("area of the square:%d\n",area);
+printf("perimeter of the square:%d\n",perimeter);
+return 0;
+}
